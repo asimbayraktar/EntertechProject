@@ -2,17 +2,20 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project_01/Models/User.cs">
+    <Files>
+      <File FileName="Project_01/Models/User.cs" Line="19" Column="9" />
+      <File FileName="Project_01/Models/Event.cs" Line="18" Column="14" />
+      <File FileName="Project_01/Models/Admin.cs" Line="8" Column="10" />
+      <File FileName="Project_01/Models/Categories.cs" Line="8" Column="16" />
+      <File FileName="Project_01/Program.cs" Line="25" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EntertechProject" expanded="True">
+          <Node name="EntertechProject" expanded="True" selected="True">
             <Node name="Project_01" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Microsoft.EntityFrameworkCore.Tools" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>

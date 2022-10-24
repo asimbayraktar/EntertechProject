@@ -93,6 +93,16 @@ namespace Project_01.Models
             registered = true;
         }
 
+        public bool ChangePassword(string _curPassword, string _newPassword1, string _newPassword2)
+        {
+            if (this.Password == _curPassword && _newPassword1 == _newPassword2)
+            {
+                this.Password = _newPassword1;
+                return true;
+            }
+            return false;
+        }
+
         public void CreateEvent()
         {
 
